@@ -1,0 +1,116 @@
+/* ///////////////////// global style //////////////////*/
+
+/*///layout/////*/
+body {
+  background-color: bisque;
+}
+
+.container {
+  background-color: bisque;
+  width: 60%;
+  margin: 0 auto;
+}
+.messages {
+  border: black 2px solid;
+  border-bottom-color: #277000;
+  border-top-color: #277000;
+  padding: 0.625% 3.625% 2.1875%;
+  margin-top: 4.125%;
+}
+
+li {
+  font-size: 1.13rem;
+}
+
+.footer_p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.center_game_rule {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+button {
+  color: black;
+  font-family: "Fredoka Two", cursive;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* footer */
+
+footer {
+  margin-top: 3.75%;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*///// font ////// */
+
+h3,
+p,
+li {
+  font-family: "Fredoka", cursive;
+}
+
+/* //////// Typography ////////// */
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.125rem;
+  text-shadow: 2px 2px 4px #d59696;
+  margin-top: 0;
+  color: #24190a;
+}
+
+h3 {
+  font-size: 2.125rem;
+  letter-spacing: 0.125rem;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+p {
+  font-size: 1.1875rem;
+}
+
+.messages a {
+  padding-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  color: brown;
+}
+
+/* home icon + link */
+
+.home_icon a {
+  float: right;
+  padding-right: 1.0625rem;
+  padding-top: 10px;
+  font-size: 1.55rem;
+  color: black;
+}
+
+.home_icon a:hover {
+  color: #46341a;
+}
+
+.home_icon img {
+  width: 28px;
+}

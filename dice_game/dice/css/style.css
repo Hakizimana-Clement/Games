@@ -1,0 +1,134 @@
+/* ///////////////////// global style //////////////////*/
+
+/*///layout/////*/
+body {
+  background-color: bisque;
+}
+
+.container {
+  background-color: bisque;
+  width: 60%;
+  margin: 0 auto;
+}
+.messages {
+  border: black 2px solid;
+  border-bottom-color: #277000;
+  border-top-color: #277000;
+  padding: 0.625% 3.625% 2.1875%;
+  margin-top: 6.125%;
+}
+
+label {
+  margin: 3.25% 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+
+.footer_p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.center_game_rule {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button {
+  color: blue;
+  position: relative;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* footer */
+
+footer {
+  margin-top: 3.75%;
+}
+
+/* //////// Typography ////////// */
+
+h1,
+label {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.125rem;
+  text-shadow: 2px 2px 4px #d59696;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 2.125rem;
+  letter-spacing: 0.125rem;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.messages a {
+  padding-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  color: brown;
+}
+
+/* home link */
+
+a {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.0625rem;
+  font-size: 1.375rem;
+}
+
+/* ////////////// forms section /////////////// */
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9px 0;
+}
+
+.small_button {
+  width: 20%;
+  border-radius: 5px;
+  padding: 2px 0;
+}
+
+.small_button:hover {
+  background-color: black;
+  color: white;
+}
+/* home link */
+
+a {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.0625rem;
+  font-size: 1.375rem;
+  color: #46341a;
+}
+.home_icon {
+  color: #46341a;
+  font-size: 200px;
+}

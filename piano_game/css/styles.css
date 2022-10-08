@@ -1,0 +1,290 @@
+/* /////// Global style /////// */
+body {
+  background-color: #dbedf3;
+  text-align: center;
+}
+/* /////////////////////////////////////////////////// */
+/* /////////////////////// layout //////////////////// */
+/* /////////////////////////////////////////////////// */
+
+.container-fluid {
+  width: 90%;
+}
+.piano_box {
+  background-color: #6ad3b091;
+  border: 2px black double;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.blackbox {
+  border: 10px #3e4d52 solid;
+  position: relative;
+  z-index: 1;
+}
+.black_key {
+  background-color: #3e4d52;
+}
+.white_key {
+  background-color: #212f34;
+  padding: 0 10px;
+}
+
+button {
+  padding: 7.5rem 1.875rem; /*The left of key in size */
+  padding-top: 11.875rem;
+  padding-bottom: 2rem;
+}
+/* home link */
+.home_icon img {
+  width: 1.875rem;
+  float: right;
+  margin-top: 0.6875rem;
+  margin-right: 1.0625rem;
+}
+
+footer p {
+  padding-top: 2.1875rem;
+  font-family: "indie flower", cursive;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////// piano key color /////////////////////////////////*/
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////// dark ⚫ key  ////////*/
+
+.w {
+  background-color: black;
+  color: white;
+  padding: 67px 12px;
+  position: relative;
+  z-index: 1;
+  top: 163px;
+  right: 117px;
+}
+.e {
+  background-color: black;
+  color: white;
+  padding: 67px 12px;
+  position: relative;
+  z-index: 1;
+  top: 163px;
+  right: 89px;
+}
+
+.u {
+  background-color: black;
+  color: white;
+  padding: 67px 12px;
+  position: relative;
+  z-index: 1;
+  top: 163px;
+  left: 10px;
+}
+.i {
+  background-color: black;
+  color: white;
+  padding: 67px 14px;
+  position: relative;
+  z-index: 1;
+  top: 163px;
+  left: 38px;
+}
+
+.o {
+  background-color: black;
+  color: white;
+  padding: 67px 12px;
+  position: relative;
+  z-index: 1;
+  top: 163px;
+  left: 68px;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+/* ////// light ⚪ key ////////////////// */
+
+.a {
+  position: relative;
+  right: 6px;
+  background-color: white;
+}
+.s {
+  position: relative;
+  background-color: white;
+  right: 12px;
+}
+
+.d {
+  background-color: white;
+  position: relative;
+  right: 18px;
+}
+
+.h {
+  background-color: white;
+  position: relative;
+  right: 25px;
+}
+
+.j {
+  background-color: white;
+  position: relative;
+  right: 32px;
+}
+
+.k {
+  background-color: white;
+  position: relative;
+  right: 38px;
+}
+
+.l {
+  background-color: white;
+  position: relative;
+  right: 45px;
+}
+/* ///////////////////////////////////////////// */
+/* /////////////////// Typography ////////////// */
+/* ///////////////////////////////////////////// */
+
+h1 {
+  font-size: 4.375rem;
+  text-align: center;
+  letter-spacing: 0.3125rem;
+  padding-top: 18px;
+  padding-bottom: 5px;
+  font-family: "Arvo", cursive;
+  text-shadow: 1px 3px 0px rebeccapurple;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*/////////////////////////////////////////// Mobile resolution (size) ////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 663px) {
+  .w {
+    background-color: black;
+    color: white;
+    padding: 67px 12px;
+    position: relative;
+    z-index: 1;
+    top: 163px;
+    right: 96px;
+  }
+  .e {
+    background-color: black;
+    color: white;
+    padding: 67px 12px;
+    position: relative;
+    z-index: 1;
+    top: 163px;
+    right: 67px;
+  }
+  .u {
+    background-color: black;
+    color: white;
+    padding: 67px 12px;
+    position: relative;
+    z-index: 1;
+    top: 163px;
+    left: 33px;
+  }
+  .i {
+    background-color: black;
+    color: white;
+    padding: 67px 14px;
+    position: relative;
+    z-index: 1;
+    top: 163px;
+    left: 60px;
+  }
+  .o {
+    background-color: black;
+    color: white;
+    padding: 67px 12px;
+    position: relative;
+    z-index: 1;
+    top: 163px;
+    left: 91px;
+  }
+
+  .l {
+    position: relative;
+    bottom: 250px;
+    left: 220px;
+  }
+
+  .white_key {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 567px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .black_key {
+    padding-left: 32px;
+  }
+
+  .u,
+  .i,
+  .o {
+    padding-left: 10px;
+  }
+  .white_key {
+    padding-left: 10px;
+  }
+  .a,
+  .s,
+  .d,
+  .h,
+  .j,
+  .k,
+  .l {
+    padding-right: 15px;
+  }
+
+  .w {
+    position: relative;
+    right: 85px;
+  }
+
+  .a {
+    position: relative;
+    right: 5px;
+  }
+
+  .l {
+    position: relative;
+    bottom: 250px;
+    left: 167px;
+  }
+  .u {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 0px;
+  }
+
+  .i {
+    position: relative;
+    left: 17px;
+    padding: 67px 14px;
+  }
+
+  .o {
+    position: relative;
+    left: 27px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
